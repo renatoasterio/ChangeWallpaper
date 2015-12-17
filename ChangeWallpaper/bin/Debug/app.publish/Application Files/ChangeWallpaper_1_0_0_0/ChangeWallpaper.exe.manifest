@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ChangeWallpaper.exe" version="1.0.0.0" publicKeyToken="5dbbb76cdbb9081f" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icons\1450305700_screen.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ChangeWallpaper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ChangeWallpaper.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChangeWallpaper.exe" size="163240">
+      <assemblyIdentity name="ChangeWallpaper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9R0C4CWfVmc5mfXzbBZ2RLjUWbF/hxySzSbjkJadIiY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en-US\ChangeWallpaper.resources.dll" size="151552">
+      <assemblyIdentity name="ChangeWallpaper.resources" version="1.0.0.0" language="en-US" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>s6+K12D5gTP+Bistcin5gmq+GeCp6XF5YoD18gfHSvA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ChangeWallpaper.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ji8aT6+d4QyGsLkWKNdTYyE7mNtRXIN9y+Xmyl/UOJU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Icons\1450305700_screen.ico" size="146999">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IJdx3OA3wmRYtMGpD7sG3WQm8Fa42qLKXUKC4OGCzvo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AE\TAE10140" issuerKeyHash="bfeba12a70f4ca91450d1b3dc6cac3f110ab9c0c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZiN0BVg/JhzBNXRcJxMFx9z96QeEH2Z2poSFwkdCAh0=</DigestValue></Reference></SignedInfo><SignatureValue>XrhNziDfUkqNed5Ud0WKjLEnVmEswIyTNvKwAzwt92OQZ52JrOIqrVnwG12cLIij6qzUcuRTeZVTIVzdn4v9cwYTUGxdappOvQDHXj7GWhbRXUY4fWUyeCIYVjhjq9K2MUpnGKuF3KOsFBr7cgOx2GjvI+ZJRBWbIsakU8lNN3U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t4HUdd89Kha77Bw1VD3J2AdPTP+Olhjv3+sLty0soiUckpLHD2usxtJHmEgC9qK+l4RRoMgr+dEVDLvVhOF0YBGmbRfeBxiJ4LvgIJCBkvfCAyCZTb99kgRfMTm/6Tv2GLDfxSVQ65XiUVKRTVTYo+Y6zuTQwYNUSeL7OAJvnu8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1d024247c28584a676661f8407e9fddcc70513275c7435c11c263f5805742366" Description="" Url=""><as:assemblyIdentity name="ChangeWallpaper.exe" version="1.0.0.0" publicKeyToken="5dbbb76cdbb9081f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AE\TAE10140</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Fjw0blaQyk3BOI8ksfGGOzWJG3gy9+HzG1PMXBcCQRI=</DigestValue></Reference></SignedInfo><SignatureValue>kvJaQB3o/2P6T9eiRZpJq5ZUEN1Cz/yXuEdT1mPKUMoMPev0Xu8x/VJD8veAscIqv67YoEfMCwFK6DXrU69UnxmTtwlFLCV4gKtHgg9TarYTZD+Wb1LgK9QUsqrA7CsdXQHyAINowYlYFQHP0GZc84FYcGwcoJoGE2Hvt9aN9Y8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t4HUdd89Kha77Bw1VD3J2AdPTP+Olhjv3+sLty0soiUckpLHD2usxtJHmEgC9qK+l4RRoMgr+dEVDLvVhOF0YBGmbRfeBxiJ4LvgIJCBkvfCAyCZTb99kgRfMTm/6Tv2GLDfxSVQ65XiUVKRTVTYo+Y6zuTQwYNUSeL7OAJvnu8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQGnjw46ljcYRMWq5pv7xOCjANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAQQBFAFwAVABBAEUAMQAwADEANAAwMB4XDTE1MTIxNjE2NDkzMloXDTE2MTIxNTIyNDkzMlowITEfMB0GA1UEAx4WAEEARQBcAFQAQQBFADEAMAAxADQAMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAt4HUdd89Kha77Bw1VD3J2AdPTP+Olhjv3+sLty0soiUckpLHD2usxtJHmEgC9qK+l4RRoMgr+dEVDLvVhOF0YBGmbRfeBxiJ4LvgIJCBkvfCAyCZTb99kgRfMTm/6Tv2GLDfxSVQ65XiUVKRTVTYo+Y6zuTQwYNUSeL7OAJvnu8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQB/6eTA4FjvZIwFqRosdmxyt4sfg/dtyLOoJuO6kWoV05p+UHtzKFN0PWY/CPsL04LMfrVYiPGWt4t0U9JsuqXR/tNzT3n1OGp/sFe0NzNM7WC47Sc3r8NcpsadgPJmDgvvAI1WzGxvS7bHIPH2CD3hpq5WrKvyiyUkZ5foEQpl6A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

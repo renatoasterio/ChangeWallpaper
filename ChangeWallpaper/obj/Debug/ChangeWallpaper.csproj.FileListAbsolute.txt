@@ -1,0 +1,15 @@
+c:\users\tae10140\documents\visual studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\bin\Debug\ChangeWallpaper.exe.config
+c:\users\tae10140\documents\visual studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\obj\Debug\ChangeWallpaper.ChangeWallpaper.resources
+c:\users\tae10140\documents\visual studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\obj\Debug\ChangeWallpaper.Properties.Resources.resources
+c:\users\tae10140\documents\visual studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\obj\Debug\ChangeWallpaper.csproj.GenerateResource.Cache
+c:\users\tae10140\documents\visual studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\bin\Debug\ChangeWallpaper.exe
+c:\users\tae10140\documents\visual studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\bin\Debug\ChangeWallpaper.pdb
+c:\users\tae10140\documents\visual studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\obj\Debug\ChangeWallpaper.exe
+c:\users\tae10140\documents\visual studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\obj\Debug\ChangeWallpaper.pdb
+C:\Users\tae10140\Documents\Visual Studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\bin\Debug\en-US\ChangeWallpaper.resources.dll
+C:\Users\tae10140\Documents\Visual Studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\obj\Debug\ChangeWallpaper.ChangeWallpaper.en-US.resources
+C:\Users\tae10140\Documents\Visual Studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\obj\Debug\en-US\ChangeWallpaper.resources.dll
+C:\Users\tae10140\Documents\Visual Studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\bin\Debug\ChangeWallpaper.exe.manifest
+C:\Users\tae10140\Documents\Visual Studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\bin\Debug\ChangeWallpaper.application
+C:\Users\tae10140\Documents\Visual Studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\obj\Debug\ChangeWallpaper.exe.manifest
+C:\Users\tae10140\Documents\Visual Studio 2015\Projects\ChangeWallpaper\ChangeWallpaper\obj\Debug\ChangeWallpaper.application
